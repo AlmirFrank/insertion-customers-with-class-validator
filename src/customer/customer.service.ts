@@ -14,8 +14,8 @@ export class CustomerService {
     customer.lastname = 'Frank';
     customer.birth = '16/06/2000';
     customer.gender = 'Masculino';
-    customer.cellphone = 999999999;
-    customer.telephone = 32544523;
+    customer.cellphone = '99999-9999';
+    customer.telephone = '3254-4523';
     customer.email = 'example@email.com';
     customer.address = 'Rua Ceará - 123';
     customer.cpf = '123456789-10';

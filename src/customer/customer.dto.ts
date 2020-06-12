@@ -1,4 +1,4 @@
-import { IsString, MinLength, MaxLength, } from "class-validator";
+import { IsString, MinLength, MaxLength } from "class-validator";
   
   export class CustomerDto {
 
@@ -20,11 +20,11 @@ import { IsString, MinLength, MaxLength, } from "class-validator";
 
     @IsString({ message: 'Não é um número de celular válido!' })
     @MaxLength(20, { message: 'O campo número de celular deve ter no máximo 20 caracteres' })
-    cellphone: number;
+    cellphone: string;
 
     @IsString({ message: 'Não é um número de telefone válido!' })
     @MaxLength(20, { message: 'O campo número de telefone deve ter no máximo 20 caracteres' })
-    telephone: number;
+    telephone: string;
 
     @IsString({ message: 'Não é um email válido!' })
     @MaxLength(40, { message: 'O campo email deve ter no máximo 80 caracteres' })

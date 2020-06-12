@@ -4,8 +4,8 @@
     lastname: string; // segundo nome
     birth: string; // nascimento
     gender: string; // gênero
-    cellphone: number; // celular
-    telephone: number; // telefone
+    cellphone: string; // celular
+    telephone: string; // telefone
     email: string; // e-mail
     address: string; // endereço
     cpf: string;
